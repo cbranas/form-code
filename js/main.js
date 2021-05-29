@@ -1,4 +1,4 @@
-// global variables are permissible, as a treat
+// possibly ill-advised use of global variables
 
 // on click, explore shapes with mouse position
 let exploratory_mode = false
@@ -10,8 +10,8 @@ let numLines = 10 + Math.floor(Math.random()*15)
 
 // spherical properties
 let rd = 5 + Math.random() * 5
-let xd = 3 + Math.random() * 7
-let yd = 3 + Math.random() * 7
+let xd = 5 + Math.random() * 5
+let yd = 5 + Math.random() * 5
 
 let radius = innerWidth / rd
 let xorigin = Math.floor(Math.random() * (innerWidth / xd))
